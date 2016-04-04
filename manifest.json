@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Jira Go",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["jquery-2.2.2.min.js","angular.min.js", "content.js"]
+  }
+],
+"background": {
+  "scripts": ["background.js"]
+},
+ "browser_action": {
+   "default_popup": "popup.html",
+   "default_title": "Jira Go"
+  }
+  
+}
+

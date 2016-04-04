@@ -16,7 +16,19 @@
  "browser_action": {
    "default_popup": "popup.html",
    "default_title": "Jira Go"
-  }
+  },
+  "commands": {
+          "_execute_browser_action": {
+            "suggested_key": {
+              "windows": "Alt+J",
+              "mac": "Alt+J",
+              "chromeos": "Alt+J",
+              "linux": "Alt+J"
+
+            }
+          }
+
+        }
   
 }
 

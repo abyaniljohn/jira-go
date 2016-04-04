@@ -25,7 +25,9 @@
               "chromeos": "Alt+J",
               "linux": "Alt+J"
 
-            }
+            },
+            "description" : "Go to Jira ID",
+            "global" : true
           }
 
         }

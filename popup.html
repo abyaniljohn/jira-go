@@ -1,1 +1,39 @@
-<span>Enter Jira Code<input type="text" value="xxxx"></input></span>
+<style>
+  .wrapper {
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 250px
+  }
+  h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  input[type=text] {
+    border: solid 1px #bbb;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  label input[type=radio] {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+
+</style>
+
+<div class="wrapper">
+  <h2>PROJECT</h2>
+  <label><input type="radio" name="project" value="FD-" checked /> Fuze Dental</label>
+  <label><input type="radio" name="project" value="PROACT-" /> PROACT</label>
+</div>
+<div class="wrapper">
+  <h2>ISSUE ID</h2>
+  <input type="text" name="issue" value="" />
+</div>
